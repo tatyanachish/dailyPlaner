@@ -1,0 +1,93 @@
+.header{
+  display: grid;
+  place-content: center;
+  background-color: #006b8b;
+}
+h1{
+  font-family: "Kings", serif;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color:#f4e7ee  
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: url(duong-ngan-h3vIWgEeAOI-unsplash.1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 100vh;
+}
+.button-add {
+  margin-top: 20px;
+  font-family: "Kings", serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px;
+  font-style: bolder;
+  background-color: white;
+  color: #b97480;
+  border: 3px solid #b97480;
+  border-radius: 20px;
+}
+.button-delete {
+  font-family: "Kings", serif;
+  background: none;
+  border: 0;
+  font-size: 15px;
+  color: #b97480;
+  font-weight: bolder;
+}
+
+.whole-plan {
+  width: 70%;
+  height: 100vh;
+  margin-left: 10px;
+}
+.myInput {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block; 
+  background-color: #dcedf7;
+  color:#006b8b;
+  font-size: 15px;
+  margin-top: 10px;
+}
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 70%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding:10px;
+  background-color: #dcedf7;
+  color:#006b8b;
+  font-size: 15px;
+}  
+.selected {
+  background: #dcedf7;
+}
+.default {
+  background-color: #f4e7ee ;
+}
+.plan {
+  color:#006b8b;
+  font-family: "Kings", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.title {
+  color:#006b8b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+
